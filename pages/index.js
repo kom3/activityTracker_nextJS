@@ -8,7 +8,7 @@ export default function Home({ resp }) {
 }
 
 export async function getServerSideProps() {
-  let resp = await fetch("http://localhost:3000/api/todaysactivity");
+  let resp = await fetch("/api/todaysactivity");
   resp = await resp.json();
 
   return {
