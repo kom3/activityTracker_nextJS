@@ -7,8 +7,8 @@ export default function HomePage({ activityData }) {
         <div>
             <Header />
             <div className={styles.scrollable_body}>
-                {activityData?.data?.map((activity) => {
-                    return <Activity status={activity?.status} name={activity?.name} />;
+                {activityData?.data?.map((activity, idx) => {
+                    return <Activity key={idx} status={activity?.status} name={activity?.name} />;
                 })}
             </div>
         </div>
