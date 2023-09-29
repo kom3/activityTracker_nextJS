@@ -1,6 +1,6 @@
 import Activity from "../activity/activity";
 import Header from "../header/header";
-import styles from "./styles.module.scss";
+import styles from "./styles.module.css";
 
 export default function HomePage({ activityData }) {
     return (
