@@ -1,0 +1,20 @@
+.activity_wrpr {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.activity_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-radius: 15px;
+  height: 100%;
+  font-weight: 600;
+  font-family: Inter;
+  font-size: 22px;
+  color: #000;
+}
